@@ -14,22 +14,7 @@ const Main = () => {
   }
 
   return <main>
-      <Carousel>
-          {
-              Productos.map(it => {
-                  return (<Carousel.Item onClick={(e) => {
-                      e.preventDefault(); handleClick(it.slug)
-                  }}>
-                      <img className='w-100 dark-image' src={it.picture}></img>
-                      <Carousel.Caption>
-                          <h3>{it.name}</h3>
-                          <p>{it.description}</p>
-                          <button className="btn btn-primary" >Ver detalle</button>
-                      </Carousel.Caption>
-                  </Carousel.Item>);
-              })
-          }
-      </Carousel>
+    
   </main >;
 }
 export default Main;

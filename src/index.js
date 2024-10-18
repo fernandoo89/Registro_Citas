@@ -12,29 +12,6 @@ import Basic from './layout/basic';
 
 const router = createBrowserRouter([
     {
-        path: "/",
-        element: <Basic />,
-        children: [
-            {
-                path: '',
-                element:<>
-                <div className="col-md-8" >
-                    <Main></Main>
-                </div>
-                <div className="col-md-4">
-                    <Aside></Aside>    
-                    </div>
-                    </>
-              },
-            {
-              path: "detalle/:slug",
-              element: <Single />, 
-            },
-          ],
         },
     ]);
-
-    const root = createRoot(document.getElementById("root"));
-    root.render(
-        <RouterProvider router={router} />
-    );  
+ 

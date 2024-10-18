@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #6bbf59;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #6bbf59;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #6bbf59;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5aa54b;
+}
+
+.spa-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #6bbf59;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    .container {
+        display: flex; /* Utilizamos Flexbox para organizar los elementos */
+        justify-content: space-between; /* Separa el formulario y la imagen */
+        align-items: center;
+        padding: 50px;
+    }
+    
+    .spa-image img {
+        width: 400px; /* Ajusta el tamaño de la imagen */
+        border-radius: 10px; /* Bordes redondeados para darle un aspecto más suave */
+    }
+    
+}
